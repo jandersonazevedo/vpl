@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Trabalho de Lógica</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Mukta:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bunner">
+        <div id="header">
+            <strong>Verificador de Fórmulas Proposicionais</strong>
+        </div>
+        <div id="formulario">
+            <label for="formula">Fórmula:</label>
+            <input type="text" id="formula" placeholder="Digite uma fórmula proposicional" require />
+        </div>
+        <hr>
+        <div id="resul">
+            <strong>Resultado: </strong>
+            <span id="resultado">Insira uma fórmula.</span>
+        </div>
+        <div id="analise">
+            <fieldset>
+                <legend><strong>Subfórmulas</strong></legend>
+                <span id="subformulas"></span>
+            </fieldset>
+            <strong>Complexidade: </strong>
+            <span id="complexidade"></span>
+        </div>
+    </div>
+    <div id="quadroArvS">
+        <div id="header">
+            <strong>Árvore Sintática</strong>
+        </div>
+        <fieldset>
+            <div id="arvore"></div>
+        </fieldset>
+    </div>
+</body>
+
+<script type="text/javascript" src="./js/script.js"></script>
+
+</html>
